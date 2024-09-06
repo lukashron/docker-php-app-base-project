@@ -2,7 +2,7 @@ FROM php:8.3-fpm
 
 MAINTAINER info@lukashron.cz
 
-WORKDIR /app
+WORKDIR /var/www/html/
 
 # Fix debconf warnings upon build
 ARG DEBIAN_FRONTEND=noninteractive
